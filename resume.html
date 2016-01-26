@@ -6,7 +6,7 @@
 <style>
 	body {
 		font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-		font-size: 12pt;
+		font-size: 11pt;
 		line-height: 1.4;
 	}
 	h1 {
@@ -15,6 +15,7 @@
 	}
 	a {
 		color: #5B8AD7;
+		text-decoration: none;
 	}
 	.overview1 p {
 		margin: 0.1em 0 0 1em;
@@ -35,7 +36,7 @@
 		padding-bottom: 0;
 	}
 	.experience-entry, p {
-		margin: 0.6em 0;
+		margin: 0.7em 0;
 	}
 	label {
 		font-size: 11pt;
@@ -79,8 +80,9 @@
 <div class="experience-entry">
 	Founder, Pok&eacute;mon Showdown (Open Source), 2011&ndash;now
 	<ul>
-		<li>Wrote the entire stack, graphics to UI to authentication scheme to multi-process server</li>
+		<li>Wrote the entire stack, graphics to UI to authentication scheme to server</li>
 		<li>Revenue-generating site; current usage of over 1 million unique visitors per month</li>
+		<li>Scaled to handle >10,000 concurrent users, with MySQL, Node, and multi-process optimizations</li>
 		<li>One optimization cut bandwidth by 95% by switching from JSON to handwritten protocol</li>
 		<li>Fixed a bug in upstream WebSocket library after getting hit by a zero-day DoS attack</li>
 	</ul>
@@ -113,6 +115,6 @@
 <p class="skills">
 	<label>Programming languages:</label> JavaScript, C, PHP, Python, C++, Java<br />
 	<label>Web technologies:</label> HTML 5, CSS 3, MySQL<br />
-	<label>Libraries/frameworks/platforms:</label> jQuery, Backbone.js, Node.js, Qt<br />
+	<label>Libraries/frameworks/platforms:</label> jQuery, Backbone.js, Node.js, Apache, Qt<br />
 	<label>Version control:</label> Subversion, Git
 </p>
