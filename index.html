@@ -4,12 +4,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Guangcong Luo - Portfolio</title>
-    <script><!--
+    <script>
+    <!--
       if (document.location.href === 'http://zarel.github.io/') {
         document.location.replace('http://guangcongluo.com/');
       }
-    --></script>
-    <style><!--
+    -->
+    </script>
+    <style>
+    <!--
       html {
         margin: 0;
         padding: 20px;
@@ -93,13 +96,13 @@
       a:hover {
         color: #445599;
       }
-      a.item {
+      .item {
         clear: left;
         display: block;
         text-decoration: none;
         height: 196px;
         margin-bottom: 1em;
-        
+
         opacity: 0.7;
         filter: alpha(opacity=70);
         -webkit-transition: opacity 0.16s linear;
@@ -108,23 +111,23 @@
         -ms-transition: opacity 0.16s linear;
         transition: opacity 0.16s linear;
       }
-      a.item br {
+      .item br {
         display: none;
       }
-      a.item .thumb {
+      .item .thumb {
         float: left;
       }
-      a.item .desc {
+      .item .desc {
         display: block;
         margin-left: 271px;
         padding-top: 10px;
         color: #000000;
       }
-      a.item .desc strong {
+      .item .desc strong {
         display: block;
         margin-bottom: 8px;
       }
-      a.item .desc em {
+      .item .desc em {
         font-weight: normal;
         font-style: italic;
         font-size: 9pt;
@@ -133,7 +136,8 @@
         opacity: 1.0;
         filter: alpha(opacity=100);
       }
-    --></style>
+    -->
+    </style>
     <!--[if IE 6]>
     <script type="text/javascript">
       // Hack for max width on IE6
@@ -153,7 +157,7 @@
         <span class="header">Guangcong Luo <span>Portfolio</span></span>
       </h1>
       <p>
-        Hi. I'm Guangcong Luo, and I'm a student at the University of Minnesota &ndash; Twin Cities majoring in Computer Science and Mathematics. I also develop software, both desktop software and Web applications. Here's some of the work I've done.
+        Hi. I'm Guangcong Luo. I develop software, both desktop software and Web applications. Here's some of the work I've done.
       </p>
       <p>
         You may also wish to see my resume; it is available at: <a href="GuangcongLuoResume.pdf">guangcongluo.com/GuangcongLuoResume.pdf</a>.
@@ -168,32 +172,33 @@
         <img src="preview_ps.png" alt="" class="thumb" /><br />
         <span class="desc"><strong>Pokemon Showdown! <em>pokemonshowdown.com</em></strong> By far my largest project. An online Pokemon battle simulator.</span>
         <span class="desc">Did everything: UI, graphics engine, game engine, website, authentication system, and scaled it up to handle thousands of concurrent users.</span>
-        <span class="desc">5 million visits/month, 18000 peak concurrent users, 1000 GitHub forks.</span>
+        <span class="desc">9 million visits/month, 20000 peak concurrent users, 1300 GitHub forks.</span>
       </a></div>
-      <div><a href="http://pokemonshowdown.com/forum/forum" target="_blank" class="item">
+      <!--div><a href="http://pokemonshowdown.com/forum/forum" target="_blank" class="item">
         <img src="preview_psforums.png" alt="" class="thumb" /><br />
         <span class="desc"><strong>Showdown! Forums <em>pokemonshowdown.com/forum/forum</em></strong> An innovative approach to navigating webforums, by spatially moving through columns.</span>
-      </a></div>
+      </a></div-->
       <div><a href="http://filecharger.com/" target="_blank" class="item">
         <img src="preview_fileman.gif" alt="" class="thumb" /><br />
         <span class="desc"><strong>Filecharger <em>filecharger.com</em></strong> An online file manager with an easy-to-use interface.</span>
       </a></div>
       <div><a href="http://qmark.tk/index2.php" target="_blank" class="item">
         <img src="preview_qmark.gif" alt="" class="thumb" /><br />
-        <span class="desc"><strong>QuestionMark AI <em>qmark.tk</em></strong> An artificial intelligence that answers your questions, be they "Who is God?" or "What is the meaning of life?". Accurate answers not guaranteed.</span>
+        <span class="desc"><strong>QuestionMark AI <em>qmark.tk</em></strong> A chat bot that answers your questions, be they "Who is God?" or "What is the meaning of life?". Intended to be a smarter Magic 8-Ball. I made the original version when I was 13.</span>
       </a></div>
-      <div><a href="http://cite.com/" target="_blank" class="item">
+      <div><a href="http://guangcongluo.com/cite/" target="_blank" class="item">
         <img src="preview_cite.gif" alt="" class="thumb" /><br />
-        <span class="desc"><strong>Cite.com <em>cite.com</em></strong> A citation generator, for 'Works Cited' sections of essays in MLA or APA format. Interesting fact: The first iteration of Cite.com supported IE5, and is the only single-page JavaScript web application I know of that did.</span>
+        <span class="desc"><strong>Cite-O-Matic <em>&ndash;</em></strong> A citation generator, for 'Works Cited' sections of essays in MLA or APA format. Interesting fact: Works in IE5, and is the only single-page JavaScript web application I know of that did.</span>
       </a></div>
       <!-- div><a href="http://aesoft.org/ftp/" target="_blank" class="item">
         <img src="preview_ftp.gif" alt="" class="thumb" /><br />
         <span class="desc"><strong>&AElig;soft FTP <em>aesoft.org/ftp</em></strong> A web-based FTP client that uses the Filecharger interface.</span>
       </a></div -->
-      <div><a href="http://wz2100.net/" target="_blank" class="item">
+      <div><span class="item">
         <img src="preview_wzsite.gif" alt="" class="thumb" /><br />
         <span class="desc"><strong>Warzone 2100 website <em>wz2100.net</em></strong> The website for the game Warzone 2100.</span>
-      </a></div>
+        <span class="desc">(The current version of wz2100.net is no longer designed by me.)</span>
+      </span></div>
     </div>
     <div class="pseudowrapper">
       <h2>Projects I've contributed to</h2>
@@ -215,7 +220,7 @@
       </p>
     </div>
     <p class="copyright">
-      &copy; Guangcong Luo 2009&ndash;2012
+      &copy; Guangcong Luo 2009&ndash;2018
     </p>
   </body>
 </html>
